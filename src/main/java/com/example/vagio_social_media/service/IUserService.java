@@ -10,7 +10,7 @@ public interface IUserService {
 
     UserDTO findUserById(Integer userId) throws Exception;
 
-    User findUserByEmail(String email) throws Exception;
+    UserDTO findUserByEmail(String email) throws Exception;
 
     User followUser(Integer userId1, Integer userId2);
 
